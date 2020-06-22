@@ -3,8 +3,13 @@ const fs = require("fs");
 // const questions = [
 var inquirer = require('inquirer');
 .prompt([
+        console.log(success);
 
-])
+    ])
+    .then(answers => {
+        console.log(answers);
+
+    })
 
 
 // function writeToFile(fileName, data) {}
